@@ -1,0 +1,35 @@
+#NEXUS
+[R-package APE, Fri Jun 29 10:48:45 2018]
+
+BEGIN TAXA;
+	DIMENSIONS NTAX = 11;
+	TAXLABELS
+		Pongo_abelii
+		Gorilla_beringei_graueri
+		Gorilla_beringei_beringei
+		Gorilla_gorilla_diehli
+		Gorilla_gorilla_gorilla
+		Homo_sapiens
+		Pan_paniscus
+		Pan_troglodytes_schweinfurthii
+		Pan_troglodytes_troglodytes
+		Pan_troglodytes_ellioti
+		Pan_troglodytes_verus
+	;
+END;
+BEGIN TREES;
+	TRANSLATE
+		1	Pongo_abelii,
+		2	Gorilla_beringei_graueri,
+		3	Gorilla_beringei_beringei,
+		4	Gorilla_gorilla_diehli,
+		5	Gorilla_gorilla_gorilla,
+		6	Homo_sapiens,
+		7	Pan_paniscus,
+		8	Pan_troglodytes_schweinfurthii,
+		9	Pan_troglodytes_troglodytes,
+		10	Pan_troglodytes_ellioti,
+		11	Pan_troglodytes_verus
+	;
+	TREE * UNTITLED = [&R] (1:17.07122401,(((2:0.5537206176,3:0.5537206176):0.5537206176,(4:0.2396286592,5:0.2396286592):0.867812576):7.026978579,(6:6.517789287,(7:1.630231284,((8:0.2196788634,9:0.2196788634):0.536401587,(10:0.3419596452,11:0.3419596452):0.4141208052):0.8741508333):4.887558004):1.616630527):8.936804199):0;
+END;
