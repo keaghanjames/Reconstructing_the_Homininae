@@ -1,3 +1,5 @@
+require(ape)
+require(phytools)
 
 #load in the mcc tree
 setwd("~/Desktop/Analyses/Phylogenies")
