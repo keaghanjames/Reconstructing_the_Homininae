@@ -1,3 +1,8 @@
+#this file is the xml for the phylogenetic reconstruction procedure described in section 3.3.4. It includes the alignments of 
+#the ten mtDNA full genomes used in the analysis. The phylogenetic reconstruction can be repeated by executing this file in 
+#beast2 and setting the seed to "888" which was the number used in the original analyses. For such a procedure beast2 will need
+#to be installed. It can be downloaded at http://www.beast2.org/
+
 <?xml version="1.0" encoding="UTF-8" standalone="no"?><beast beautitemplate='Standard' beautistatus='' namespace="beast.core:beast.evolution.alignment:beast.evolution.tree.coalescent:beast.core.util:beast.evolution.nuc:beast.evolution.operators:beast.evolution.sitemodel:beast.evolution.substitutionmodel:beast.evolution.likelihood" required="" version="2.4">
 
 
